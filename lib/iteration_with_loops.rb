@@ -3,3 +3,19 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
 end
 
+def find_greater_pair(src)
+outer_results = []
+  row = 0 
+  while row < src.count do
+    element =0 
+    largest_element = ""
+    while element < src[row].count do
+      if src[row][count].length > largest_element.length
+        largest_element = src[row][element]
+      end
+      element += 1 
+    end
+    outer_results << largest_element
+    row +=1
+  end
+end
