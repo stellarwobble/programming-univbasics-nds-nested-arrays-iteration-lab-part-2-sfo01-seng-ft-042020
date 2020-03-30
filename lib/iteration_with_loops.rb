@@ -12,7 +12,7 @@ smallest_element = []
     end
     element += 1 
   end
-  outer_results << shortest_element
+  outer_results << smallest_element
   row +=1 
 end
 end
