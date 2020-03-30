@@ -8,7 +8,7 @@ while row < src.count do
   smallest_element = 0 
   while element < src[row].count do
   smallest_element= src[row][element].min
-    end
+
     element += 1 
   end
   outer_results << smallest_element
