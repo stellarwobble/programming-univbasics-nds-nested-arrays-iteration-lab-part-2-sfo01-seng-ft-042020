@@ -22,7 +22,7 @@ outer_results = []
   row = 0 
   while row < src.count do
     element =0 
-    largest_element = ""
+    largest_element = []
     while element < src[row].count do
       if src[row][count] > largest_element
         largest_element = src[row][element]
