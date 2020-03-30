@@ -32,5 +32,5 @@ outer_results = []
     outer_results << largest_element
     row +=1
   end
-  outer_results
+  p outer_results
 end
