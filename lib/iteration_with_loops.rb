@@ -7,7 +7,7 @@ while row < src.count do
   element = 0 
 smallest_element = ""
   while element < src[row].count do
-    if src[row][element].count < smallest_element.count
+    if src[row][element] < smallest_element
       shortest_element = src[row][element]
     end
     element += 1 
@@ -24,7 +24,7 @@ outer_results = []
     element =0 
     largest_element = ""
     while element < src[row].count do
-      if src[row][count].count > largest_element.count
+      if src[row][count] > largest_element
         largest_element = src[row][element]
       end
       element += 1 
