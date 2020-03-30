@@ -15,6 +15,7 @@ smallest_element = 0
   outer_results << smallest_element
   row +=1 
 end
+outer_results
 end
 
 def find_greater_pair(src)
@@ -32,5 +33,5 @@ outer_results = []
     outer_results << largest_element
     row +=1
   end
-  puts outer_results
+ outer_results
 end
