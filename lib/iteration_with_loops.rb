@@ -7,7 +7,7 @@ while row < src.count do
   element = 0 
 smallest_element = 0
   while element < src[row].count do
-    if src[row][element] < smallest_element
+    if src[row][element] >  smallest_element
       smallest_element = src[row][element]
     end
     element += 1 
